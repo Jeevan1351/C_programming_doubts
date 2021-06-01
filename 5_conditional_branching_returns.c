@@ -3,14 +3,14 @@
 int main()
 {
     int i;
-    printf("Enter a number:\t");
+    printf("Enter a number: ");
     scanf("%d", &i);
     if (i >= 0 && i <= 10)
-        printf("i is between 0 and 10");
+        printf("The number is between 0 and 10\n");
     else if (i >= 11 && i <= 15)
-        printf("i is between 11 and 15");
+        printf("The number is between 11 and 15\n");
     else if (i >= 16 && i <= 20)
-        printf("i is between 16 and 20");
+        printf("The number is between 16 and 20\n");
     else
-        printf("i is greater than 20");
+        printf("The number is greater than 20\n");
 }
