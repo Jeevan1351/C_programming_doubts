@@ -3,20 +3,21 @@
 int main()
 {
     char ch;
-    printf("\t\tMenu\n\ta)Masala Dosa\n\tb)Idly\n\tc)Maggi\n\td)Vada");
-    printf("\n\n\nEnter choice:\t");
+    printf("************___MENU___************\n");
+    printf("\ta) Masala Dosa\n\tb) Idly\n\tc) Maggi\n\td) Vada\n\n");
+    printf("Enter choice: ");
     scanf("%c", &ch);
     switch(ch)
     {
-        case 'a': printf("\nYou have selected Masala Dosa!");
+        case 'a': printf("You have selected Masala Dosa!\n");
                     break;
-        case 'b': printf("\nYou have selected Idly!");
+        case 'b': printf("You have selected Idly!\n");
                     break;
-        case 'c': printf("\nYou have selected Maggi!");
+        case 'c': printf("You have selected Maggi!\n");
                     break;
-        case 'd': printf("\nYou have selected Vada!");
+        case 'd': printf("You have selected Vada!\n");
                     break;
-        default: printf("\nWrong Choice!!");
+        default: printf("Please select a valid character out of a, b, c or d!!\n");
     }
     return 0;
 }

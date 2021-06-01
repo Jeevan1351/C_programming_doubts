@@ -15,6 +15,6 @@ int main()
     scanf("%f", &radius);
 
     float vol = volume_of_sphere(radius);
-    printf("\n\nThe volume of the sphere upto 2 decimal places:\t%f", vol);
-    printf("\nThe integer part of volume of the sphere:\t%d", (int)vol);
+    printf("\nThe volume of the sphere upto 2 decimal places: %f\n", vol);
+    printf("\nThe integer part of volume of the sphere: %d\n", (int)vol);
 }
